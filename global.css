@@ -1,0 +1,738 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(1, 3, 74);
+}
+.logo{
+    width: 75px;
+}
+#navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+.navigation{
+    display: flex;
+    justify-content: center;
+}
+.nav-li{
+    color: rgba(15, 230, 220, 1);
+    font-weight: 700;
+    list-style: none;
+    font-size: 21px;
+    margin: 15px;
+}
+.image{
+    margin-top: -54px;
+    display: flex;
+    justify-content: end;
+}
+.image1{
+    position: absolute;
+    z-index: -10;
+    width: 1082px;
+}
+.image2{
+    position: absolute;
+    z-index: -8;
+    width: 560px;
+    margin: 100px 0 0 330px;
+}
+.text1{
+    margin: 120px 0 0 110px;
+}
+.text1 h1{
+    color: rgba(15, 230, 220, 1);
+    font-size: 65px;
+}
+.text1 p{
+    font-weight: bold;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.text1 button{
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 12px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(22,117,122) , rgb(41,215,224));
+}
+.portion2{
+    display: flex;
+    justify-content: center;
+    margin-top: 185px;
+    border-top: 3px solid rgba(15, 230, 220, 1);
+}
+#heading{
+    color: rgba(15, 230, 220, 1);
+    font-size: 65px;
+    margin-top: 60px;
+}
+.skill{
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+}
+.skill2{
+    display: flex;
+    justify-content: center;
+}
+.skill3 img{
+    width: 30px;
+}
+.skill3{
+    font-size: 30px;
+    font-weight: bold;
+    list-style: none;
+    background-color: aqua;
+    padding: 5px 0 5px 30px;
+    border-bottom: 3px solid black;
+    display: flex;
+    align-items: center;
+}
+.lists{
+    list-style: none;
+    font-size: 20px;
+    margin: 0px 0 5px 45px;
+}
+.image3{
+    width: 600px;
+    height: 300px;
+    border-radius: 20px 20px 0px 0px;
+}
+.ul1{
+    width: 600px;
+}
+.ul2{
+    background-color: aqua;
+    padding: 5px;
+    display: block;
+}
+.img001{
+    z-index: -8;
+    width: 260px;
+    position: absolute;
+    margin-top: -100px;
+}
+.img002{
+    z-index: -8;
+    width: 270px;
+    position: absolute;
+    margin-top: -100px;
+}
+.portion3{
+    margin-top: 70px;
+    border-top: 3px solid rgba(15, 230, 220, 1);
+}
+.portion3 div{
+    margin: 50px 0 0 50px;
+}
+#heading2{
+    color: rgba(15, 230, 220, 1);
+    font-size: 70px;
+    margin: 90px 0 0 90px;
+}
+.edu{
+    color: white;
+    font-size: 32px;
+    padding: 10px;
+}
+.div003{
+    display: flex; 
+    justify-content: end; 
+    margin-top: -190px;
+}
+.img003{
+    z-index: -8;
+    position: absolute;
+    width: 400px;
+}
+.portion4{
+    margin-top: 300px;
+    border-top: 3px solid rgb(121 208 228);
+}
+#heading3{
+    color: rgba(15, 230, 220, 1);
+    font-size: 70px;
+    margin: 90px 0 0 90px;
+}
+.frame{
+    margin: 50px 0 0 15%;
+}
+.project{
+    width: 550px;
+    position: absolute;
+    margin: 40px 0 0 215px;
+    background-color: rgba(217, 217, 217, 0.5);
+    padding: 30px;
+    border-radius: 30px;
+}
+.projectPara{
+    margin: 20px;
+    font-size: 21px;
+}
+.projectImg{
+    width: 240px;
+    border-radius: 20px;
+}
+.button{
+    padding: 8px;
+    border-radius: 10px;
+    margin-top: 12px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to right, rgb(22,117,122) , rgb(41,215,224));
+}
+.portion5{
+    margin-top: 65px;
+    border-top: 3px solid rgb(121 208 228);
+}
+#heading4{
+    color: rgba(15, 230, 220, 1);
+    font-size: 70px;
+    margin: 60px 0 0 90px;
+}
+.contact{
+    margin: 45px 0px 0 10%
+}
+.info{
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    text-decoration: none;
+    color: white;
+}
+.info img{
+    width: 40px;
+    margin: 2px 15px 0px 0px;
+}
+.rightImg{
+    display: flex;
+    justify-content: end;
+    margin-top: -30%;
+}
+.img004{
+    margin-top: -200px;
+}
+.img005{
+    width: 110px;
+}
+.logo2{
+    width: 75px;
+    margin: 10px;
+}
+.footer{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    margin: 230px 0px 0 0px;
+}
+.footul{
+    display: flex;
+    align-items: center;
+}
+.foota{
+    margin-right: 10px;
+    list-style: none;
+}
+.footImg{
+    width: 50px;
+}
+
+@media only screen and (max-width: 1000px) {
+    .div003{
+        margin-top: -160px;
+    }
+    .img003{
+        width: 300px;
+    }
+    .footer{
+        margin: 75px 0 0 0;
+    }
+    .frame {
+        margin: 50px 0 0 10%;
+    }
+    .text1 {
+        margin: 120px 0 0 80px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .portion2{
+        margin-top: 50px;
+    }
+    .text1{
+        margin: 120px 0 0 20px;
+    }
+    .image3{
+        width: 500px;
+    }
+    .ul1{
+        width: 500px;
+    }
+    .img002{
+        width: 180px;
+    }
+    .img001{
+        width: 185px;
+    }
+    .edu{
+        font-size: 28px;
+    }
+    .frame{
+        margin: 50px 0 0 5%;    
+    }
+    .img004{
+        width: 90px;
+    }
+    .project{
+        width: 520px;
+        padding: 20px;
+    }
+    .image1{
+        width: 845px;
+    }
+    .image2{
+        width: 460px;
+        margin: 25px 25px 0px 0px;
+    }
+}
+@media only screen and (max-width: 800px){
+    #heading3{
+        margin: 75px 0 0 90px;
+    }
+    .frame{
+        margin: 50px 0 0 30px;
+    }
+    .project{
+        width: 470px;
+        padding: 10px;
+        margin: 40px 0 0 185px;
+    }
+    .projectPara{
+        font-size: 20px;
+        margin: 15px 0 0 15px;
+    }
+    .projectImg{
+        width: 210px;
+    }
+    .portion2{
+        margin-top: 70px;
+    }
+    .image1{
+        width: 800px;
+    }
+    .image2{
+        width: 375px;
+        margin: 75px 75px 0 0px;    
+    }
+    .text1 h1{
+        font-size: 50px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .logo{
+        width: 35px;
+    }
+    .nav-li{
+        font-size: 15px;
+        margin: 10px;
+    }
+    .image1{
+        width: 585px;
+    }
+    .image2{
+        width: 270px;
+    }
+    .text1 {
+        margin: 80px 0 0 20px;
+    }
+    .text1 h1{
+        font-size: 40px;
+    }
+    .text1 p{
+        font-size: 10px;
+    }
+    .text1 a{
+        display: flex;
+        align-items: center;
+    }
+    .text1 button {
+        padding: 4px;
+        font-size: 12px;
+    }
+    .text1 img{
+        width: 15px;
+    }
+    .portion2{
+        margin-top: 50px;
+    }
+    #heading{
+        margin-top: 60px;
+        font-size: 50px;
+    }
+    .img001 {
+        width: 120px;
+    }
+    .img002 {
+        width: 100px;
+    }
+    .image3 {
+        width: 360px;
+        height: 220px;
+    }
+    .ul1 {
+        width: 360px;
+    }
+    .skill3{
+        font-size: 25px;
+        padding: 5px 0 5px 30px;
+    }
+    .lists{
+        font-size: 16px;
+    }
+    #heading2{
+        font-size: 40px;
+        margin: 50px 0 0 20px;
+    }
+    .edu{
+        font-size: 20px;
+    }
+    .div003{
+        margin-top: -100px;
+    }
+    .img003{
+        width: 200px;
+    }
+    .portion3 div{
+        margin: 15px 0 0 50px;
+    }
+    .portion4 {
+        margin-top: 170px;
+    }
+    #heading3 {
+        margin: 45px 0 0 25px;
+        font-size: 40px;
+    }
+    .frame {
+        margin: 45px 0 0 30px;
+    }
+    .project {
+        width: 400px;
+        padding: 10px;
+        margin: 30px 0 0 150px;
+    }
+    .project h1{
+        font-size: 20px;
+    }
+    .projectPara {
+        font-size: 15px;
+        margin: 10px 0 0 10px;
+    }
+    .projectImg {
+        width: 183px;
+    }
+    .portion5 {
+        margin-top: 60px;
+    }
+    #heading4{
+        font-size: 40px;
+        margin: 50px 0 0 35px;
+    }
+    .info{
+        font-size: 20px;
+    }
+    .info img {
+        width: 25px;
+    }
+    .img004 {
+        width: 60px;
+    }
+    .img005 {
+        width: 65px;
+    }
+    .logo2 {
+        width: 50px;
+        margin: 6px;
+    }
+    .footImg {
+        width: 30px;
+    }
+}
+@media only screen and (max-width: 600px){
+    .project {
+        width: 300px;
+    }
+    .image1 {
+        width: 555px;
+    }
+    .image2 {
+        width: 255px;
+        margin: 65px 75px 0 0px;
+    }
+    .nav-li {
+        font-size: 15px;
+        margin: 6px;
+    }
+    #navbar{
+        justify-content: space-between;
+    }
+    .text1 h1 {
+        font-size: 35px;
+    }
+    .text1 button {
+        padding: 4px;
+        font-size: 10px;
+    }
+}
+@media only screen and (max-width: 500px){
+    .image1 {
+        width: 410px;
+    }
+    .image2 {
+        width: 200px;
+        margin: 50px 50px 0 0;
+    }
+    .nav-li{
+        font-size: 10px;
+        margin: 5px;
+    }
+    .logo {
+        width: 35px;
+    }
+    .text1 {
+        margin: 70px 0 0 15px;
+    }
+    .text1 h1 {
+        font-size: 25px;
+    }
+    .text1 p {
+        font-size: 8px;
+    }
+    .text1 button {
+        padding: 4px;
+        border-radius: 5px;
+    }
+    .text1 img {
+        width: 7px;
+    }
+    .text1 a{
+        font-size: 6px;
+    }
+    .portion2 {
+        margin-top: 18px;
+    }
+    #heading {
+        margin-top: 70px;
+        font-size: 30px;
+    }
+    .img001 {
+        width: 85px;
+    }
+    .img002 {
+        width: 70px;
+    }
+    .image3 {
+        width: 225px;
+        height: auto;
+    }
+    .portion3 {
+        margin-top: 50px;
+    }
+    .skill3 {
+        font-size: 20px;
+        padding: 5px 0 5px 6px;
+    }
+    .skill3 img{
+        width: 20px;
+    }
+    .ul1 {
+        width: 225px;
+    }
+    .lists {
+        font-size: 14px;
+        margin: 0px 0 3px 15px;
+    }
+    #heading2 {
+        font-size: 30px;
+        margin: 30px 0 0 20px;
+    }
+    .edu {
+        font-size: 15px;
+    }
+    .div003 {
+        margin-top: -75px;
+    }
+    .img003 {
+        width: 130px;
+    }
+    .portion4 {
+        margin-top: 120px;
+    }
+    #heading3 {
+        margin: 30px 0 0 25px;
+        font-size: 30px;
+    }
+    .frame {
+        margin: 35px 0 0 10px;
+    }
+    .project {
+        width: 300px;
+        padding: 10px;
+        margin: 25px 0 0 85px;
+        border-radius: 15px;
+    }
+    .project h1 {
+        font-size: 15px;
+    }
+    .projectPara {
+        font-size: 10px;
+        margin: 7px 0 0 6px;
+    }
+    .button{
+        font-size: 10px;
+        padding: 5px;
+        border-radius: 5px;
+    }
+    .projectImg {
+        width: 130px;
+    }
+    .portion5 {
+        margin-top: 50px;
+    }
+    .img005 {
+        width: 55px;
+    }
+    #heading4 {
+        font-size: 30px;
+        margin: 28px 0 0 35px;
+    }
+    .rightImg {
+        margin-top: -185px;
+    }
+    .info {
+        font-size: 15px;
+    }
+    .info img {
+        width: 20px;
+    }
+    .img004 {
+        width: 40px;
+    }
+    .logo2 {
+        width: 35px;
+        margin: 6px;
+    }
+    .footImg {
+        width: 20px;
+    }
+    .foota {
+        margin-right: 4px;
+        list-style: none;
+    }
+    .contact {
+        margin: 25px 0px 0 10%;
+    }
+}
+@media only screen and (max-width: 400px){
+    .button {
+        font-size: 8px;
+    }
+    .text1 img {
+        width: 7px;
+    }
+    .project {
+        width: 253px;
+        margin: 15px 0 0 85px;
+    }
+    .projectImg {
+        width: 120px;
+    }
+    .project h1 {
+        font-size: 10px;
+    }
+    #heading3 {
+        margin: 15px 0 0 25px;
+        font-size: 20px;
+    }
+    .img003 {
+        width: 100px;
+    }
+    .div003 {
+        margin-top: -65px;
+    }
+    .img004 {
+        width: 30px;
+    }
+    #heading4 {
+        font-size: 20px;
+        margin: 20px 0 0 20px;
+    }
+    .img005 {
+        width: 45px;
+    }    
+    .rightImg {
+        margin-top: -160px;
+    }
+    #heading2 {
+        font-size: 20px;
+        margin: 20px 0 0 20px;
+    }
+    .portion4 {
+        margin-top: 90px;
+    }
+    .edu {
+        font-size: 10px;
+        padding: 5px;
+    }
+    .portion3 div {
+        margin: 15px 0 0 20px;
+    }
+    .logo2 {
+        width: 32px;
+        margin: 2px;
+        height: auto;
+    }
+    #navbar {
+        justify-content: space-between;
+    }
+    .logo {
+        width: 26px;
+    }
+    .text1 h1 {
+        font-size: 20px;
+    }
+    .text1 p {
+        font-size: 5px;
+    }
+    .text1 button {
+        padding: 3px;
+        border-radius: 5px;
+    }
+    .text1 a {
+        font-size: 6px;
+    }
+    .text1 img {
+        width: 8px;
+    }
+    .text1 {
+        margin: 70px 0 0 10px;
+    }
+    .lists {
+        font-size: 12px;
+    }
+    .image1 {
+        width: 355px;
+    }
+    .image2 {
+        width: 160px;
+        margin: 45px 25px 0 0;
+    }
+}

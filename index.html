@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="global.css">
+    <link rel="shortcut icon" href="png/logo-no-background.png" type="image/x-icon">
+    <title>Umer Adnan</title>
+</head>
+
+<body>
+    <div id="navbar">
+        <img class="logo" src="png/logo-no-background.png" alt="logo">
+        <ul class="navigation">
+            <a style="text-decoration: none; cursor: pointer;" href="#heading">
+                <li class="nav-li">Skills</li>
+            </a>
+            <a style="text-decoration: none; cursor: pointer;" href="#heading2">
+                <li class="nav-li">Education</li>
+            </a>
+            <a style="text-decoration: none; cursor: pointer;" href="#heading3">
+                <li class="nav-li">Project</li>
+            </a>
+            <a style="text-decoration: none; cursor: pointer;" href="#heading4">
+                <li class="nav-li">Contact</li>
+            </a>
+        </ul>
+    </div>
+    
+    <div class="image">
+        <img class="image1" src="imagePortfolio_page-0001-removebg-preview.png" alt="">
+        <img class="image2" src="niasniaos-removebg-preview.png" alt="">
+    </div>
+    <div class="text1">
+        <h1>Hello,<br> I am Umer <br>Adnan</h1>
+        <p>Web Developer | Resume</p>
+        <button><a style="text-decoration: none; cursor: pointer; color: black;" href="umer adnan resume_page-0001.jpg"
+            target="_blank" download>Download Resume <img src="1564526_add_arrow_download_save_guardar_icon.png" alt=""
+            width="16px"></a></button>
+        </div>
+        
+        <div class="portion2">
+            <h1 id="heading">Skills</h1><br>
+        </div>
+        <img class="img001" src="umer_page-0001-removebg-preview.png" alt="">
+        <div style="display: flex; justify-content: end;">
+        <img class="img002" src="umer_page-0005-removebg-preview.png" alt="" >
+    </div>
+    <div class="skill">
+        <img class="image3" src="119761-OPOVDW-164-03.jpg" alt="">
+    </div>
+    <div class="skill2">
+        <ul class="ul1">
+            <li onclick="hideShow()" class="skill3">Skills <img src="211614_down_b_arrow_icon.png" alt=""></li>
+                <ul class="ul2" id="ul2">
+                    <li class="lists">1. HTML</li>
+                    <li class="lists">2. CSS( Cascading Style Sheet )</li>
+                    <li class="lists">3. JavaScript</li>
+                    <li class="lists">4. React.js</li>
+                    <li class="lists">5. Next.js</li>
+                    <li class="lists">6. Tailwind CSS</li>
+                    <li class="lists">7. APP Router</li>
+                    <li class="lists">8. SSR CSR SSR DSR</li>
+                </ul>
+        </ul>
+    </div>
+    <script>
+        var div = document.getElementsById('ul2');
+        var display = 0;
+  
+        function hideShow(){
+          if(display == 1){
+            ul2.style.display = 'block';
+            display = 0;
+          }
+          else{
+            ul2.style.display = 'none';
+            display = 1;
+          }
+        }
+      </script>
+
+      <div class="portion3">
+        <h1 id="heading2">Education</h1>
+        <div>
+            <p class="edu">• Matriculation By Computer Science From <br>                        
+                ISS( International School Of Studies )</p>
+            <p class="edu">• Intermediate By Computer Science From <br>                        
+                St. Patrick’s College </p>
+        </div>
+      </div>
+      <div class="div003">
+      <img class="img003" src="umer_page-0003-removebg-preview.png" alt="" >
+    </div>
+
+    <div class="portion4">
+        <h1 id="heading3">Project</h1>
+        <div>
+        <div class="frame">
+        <div class="project">
+            <h1>Amaryllis By Adeena Adnan</h1>
+            <p class="projectPara"> learned a lot while making this website. Yes, the website is not very good, but I did my best as first project.I can do much better than this website.This website's link give in the below.Please click this button and visit my website. Thankyou</p>
+            <button class="button"><a style="text-decoration: none; cursor: pointer; color: black;" href="https://amaryllis-by-adeena-adnan.vercel.app/">Visit Website</a></button>
+        </div>
+        <img class="projectImg" src="web2.PNG" alt="">
+    </div>
+    </div>
+</div>
+<div class="portion5">
+    <h1 id="heading4">Contact</h1>
+    <div class="contact">
+        <a class="info" href=""><img src="352510_local_phone_icon.png" alt="">+92 334 7329816</a>
+        <a class="info" href="mailto:umeradnan7106@gmail.com"><img src="8665305_envelope_email_icon.png" alt="">umeradnan7106@gmail.com</a>
+        <a class="info" href="https://www.facebook.com/umer.adnan.790"><img src="4747497_social media_facebook_icon.png" alt="">Umer Adnan</a>
+    </div>
+</div>
+<img class="img004" src="umer_page-0002-removebg-preview.png" alt="" >
+<div class="rightImg">
+<img class="img005" src="umer_page-0004-removebg-preview.png" alt="" >
+</div>
+
+<div class="footer">
+    <img class="logo2" src="png/logo-no-background.png" alt="" >
+<ul class="footul">
+    <li class="foota"><a href="https://www.facebook.com/umer.adnan.790"><img class="footImg" src="4747497_social media_facebook_icon.png" alt=""></a></li>
+    <li class="foota"><a href="mailto:umeradnan7106@gmail.com"><img class="footImg" src="8665305_envelope_email_icon.png" alt=""></a></li>
+    <li class="foota"><a href="#"><img class="footImg" src="352510_local_phone_icon.png" alt=""></a></li>
+    <li class="foota"><a href="#navbar"><img class="footImg" src="211622_a_up_arrow_icon.png" alt=""></a></li>
+</ul>
+</div>
+</body>
+
+</html>
